@@ -1,0 +1,17 @@
+  
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> GAMES!</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+    		<ul>
+        		<li><a href="/">Sonic/Pacman hybrid</a></li>
+	        	<li><a href="/">About</a></li>
+        		<li><a href="/">CV</a></li>
+        		<li><a href="/">Blog</a></li>
+    		</ul>
+	
+	</body>
+</html>
