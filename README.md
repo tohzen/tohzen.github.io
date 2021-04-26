@@ -1,1 +1,1 @@
-# funPong
+https://tohzen.github.io/
