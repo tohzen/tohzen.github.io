@@ -1,30 +1,50 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title> Hi Im Lee Mobley!</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="https://tohzen.github.io/Games.html">Games</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Lee!</h1>
-				<p>So I like games, and I am new to coding but its way more fun than what I thought it would be!<em> <AWWW HE THINKS HES A CODER </em> Learning stuff. <a href="/about">Read more about my life... spoiler... its incomplete</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:melvin.L.mobley@gmail.com">email</a></li>
-        		<li><a href="https://tohzen.github.io/">Tohzen's Github.io </a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Developer Portfolio</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; margin: 0; padding: 2rem; background-color: #f9f9f9; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 3rem; }
+        h1 { margin-bottom: 0.5rem; }
+        .projects { display: grid; grid-template-columns: 1fr; gap: 2rem; }
+        .project-card { background-color: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 1.5rem; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .project-card h3 { margin-top: 0; }
+        .project-links a { margin-right: 1rem; text-decoration: none; color: #007bff; font-weight: bold; }
+        .project-links a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Name</h1>
+            <p>Full Stack Developer with a passion for building clean and efficient web applications.</p>
+        </header>
+
+        <section class="projects">
+            <h2>My Projects</h2>
+
+            <div class="project-card">
+                <h3>2D Side-Scroller Game</h3>
+                <p>A classic side-scroller game built from scratch using vanilla JavaScript, HTML5, and CSS. This project focuses on core game development concepts like animation loops and collision detection.</p>
+                <div class="project-links">
+                    <a href="https://tohzen.github.io/sideScroller/" target="_blank">Live Demo</a>
+                    <a href="https://github.com/tohzen/sideScroller" target="_blank">View Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Personal Dashboard</h3>
+                <p>A full-stack application that fetches data from multiple external APIs using a Python/Flask back-end and displays it on a dynamic front-end built with JavaScript.</p>
+                <div class="project-links">
+                    <a href="#">Live Demo (Coming Soon)</a>
+                    <a href="#">View Code (Coming Soon)</a>
+                </div>
+            </div>
+
+            </section>
+    </div>
+</body>
 </html>
